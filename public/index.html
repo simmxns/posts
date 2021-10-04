@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Posts</title>
+		<link rel="stylesheet" href="../src/styles/style.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="wrapper">
+				<section class="post">
+					<header>Create Post</header>
+					<form action="#">
+						<div class="content">
+							<img src="assets/icons/logo.png" />
+							<div class="details">
+								<p>John Doe</p>
+								<div class="privacy">
+									<i class="bx bxs-group"></i>
+									<span>Friends</span>
+									<i class="bx bx-caret-down"></i>
+								</div>
+							</div>
+						</div>
+						<textarea
+							placeholder="What's on your mind, John Doe"
+							required
+						></textarea>
+						<div class="theme-emoji">
+							<img src="assets/icons/theme.svg" />
+							<img src="assets/icons/smile.svg" />
+						</div>
+						<div class="options">
+							<p>Add your Post</p>
+							<ul class="list">
+								<li><img src="assets/icons/gallery.svg"/></li>
+								<li><img src="assets/icons/tag.svg"/></li>
+								<li><img src="assets/icons/emoji.svg"/></li>
+								<li><img src="assets/icons/mic.svg"/></li>
+								<li><img src="assets/icons/more.svg"/></li>
+							</ul>
+						</div>
+						<button>Post</button>
+					</form>
+				</section>
+				<section class="audience">
+					<header>
+						<div class="arrow-back"><i class='bx bx-arrow-back' ></i></div>
+						<p>Select Audience</p>
+					</header>
+					<div class="content">
+						<p>Who can see your post?</p>
+						<span>Your post will show up in New Feed, on your profile and in search results.</span>
+					</div>
+					<ul class="list">
+						<li class="active">
+							<div class="column">
+								<div class="icon"><i class='bx bx-globe' ></i></div>
+								<div class="details">
+									<p>Public</p>
+									<span>Anyone on or off Facebook</span>
+								</div>
+							</div>
+							<div class="radio">
+							</div>
+						</li>
+						<li>
+							<div class="column">
+								<div class="icon"><i class='bx bxs-lock-alt' ></i></div>
+								<div class="details">
+									<p>Private</p>
+									<span>Only you can see the post</span>
+								</div>
+							</div>
+							<div class="radio">
+							</div>
+						</li>
+						<li>
+							<div class="column">
+								<div class="icon"><i class='bx bxs-group' ></i></div>
+								<div class="details">
+									<p>Friends</p>
+									<span>All your friends can see it</span>
+								</div>
+							</div>
+							<div class="radio">
+							</div>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+		<script src="../src/scripts/main.js"></script>
+	</body>
+</html>
